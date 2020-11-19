@@ -1,11 +1,11 @@
 {
-    "name": "bjornvoesten/laravel-ciphersweet",
+    "name": "edmondsylat/laravel-topsec",
     "description": "Laravel CipherSweet",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bjorn Voesten",
-            "email": "contact@bjornvoesten.nl"
+            "name": "Edmond Sylar",
+            "email": "edmondmusiitwa@gmail.com"
         }
     ],
     "scripts": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bjornvoesten\\CipherSweet\\": "src/"
+            "EdmondSylar\\CipherSweet\\": "src/"
         }
     },
     "autoload-dev": {
@@ -22,19 +22,19 @@
         }
     },
     "require": {
-        "php": "^7.2",
+        "php": "^7.3|^8.0",
         "illuminate/database": "^6.0|^7.0|^8.0",
         "paragonie/ciphersweet": "^2"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
         "orchestra/testbench": "^4.0|^5.1",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^9.3.3"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bjornvoesten\\CipherSweet\\CipherSweetServiceProvider"
+                "EdmondSylar\\CipherSweet\\CipherSweetServiceProvider"
             ]
         }
     }
